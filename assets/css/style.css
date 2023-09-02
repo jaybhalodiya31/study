@@ -199,6 +199,90 @@ img {
 }
 /* education section css end */
 
+/* university section css start */
+.university-section {
+    padding: 50px 30px;
+}
+.university-section .heading {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.university-section .university-slider .owl-stage {
+    display: flex;
+    align-items: center;
+}
+.university-section .university-slider .university img {
+    filter: grayscale(100%);
+}
+
+/* university section css end */
+
+/* content with image section css start */
+.content-with-image-section {
+    margin-bottom: 30px;
+}
+.content-with-image-section .content-with-image-main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.content-with-image-main .content-with-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 50px;
+}
+.content-with-image-main .content-with-image .content h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.content-with-image-main .content-with-image .content p {
+    margin-bottom: 10px;
+}
+.content-with-image-main .content-with-image .content p:last-child {
+    margin-bottom: 0;
+}
+/* content with image section css end */
+
+/* counter section css start */
+
+.counter-section {
+    background-color: var(--black);
+    padding: 50px 0;
+}
+.counter-section .counter-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+}
+.counter-section .counter-main .counter {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: var(--white);
+    border-right: 1px solid var(--white);
+}
+.counter-section .counter-main .counter:last-child {
+    border-right: 0;
+}
+.counter-section .counter-main .counter h5 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.counter-section .counter-main .counter p {
+    text-transform: uppercase;
+}
+/* counter section css end */
+
 /* contact section css start */
 .contactus-section {
     padding: 50px;
