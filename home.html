@@ -22,21 +22,30 @@
   <header class="header-main">
     <div class="container">
       <div class="header">
-        <div class="header-left">
-          <div class="logo">
-            <a href="#"><img src="./assets/images/logo.png" alt="logo" /></a>   
+        <div class="logo">
+          <a href="#"><img src="./assets/images/logo.png" alt="logo" /></a>   
+        </div>
+        <div class="header-right navbar" id="navbar">
+          <div class="cross-icon" id="close-icon">
+            <img src="./assets/images/cross-icon.webp" alt="cross-icon"/>
           </div>
-          <div class="menu">
+          <nav class="menu">
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">About us</a></li>
               <li><a href="#">Contact us</a></li>
             </ul>
+          </nav>
+          <div class="talk-to-us-btn">
+            <a class="secondary-btn" href="tel:+91 1234657890">Talk to us</a>
           </div>
         </div>
-        <div class="talk-to-us-btn">
-          <a class="secondary-btn" href="tel:+91 1234657890">Talk to us</a>
+        <div class="burger" id="burger">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
         </div>
+        <span class="overlay"></span>
       </div>
     </div>
   </header>
@@ -174,6 +183,7 @@
         <div class="contactus-right">
           <form class="contact-form">
             <h4>Contact us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet</p>
             <div class="field">
               <input type="text" id="firstname" placeholder="First Name" >
             </div>
@@ -182,6 +192,10 @@
             </div>
             <div class="field">
               <textarea placeholder="Comment" ></textarea>
+            </div>
+            <div class="field">
+              <input type="checkbox" id="agree" />
+              <label for="agree">I Agree that ..... </label>
             </div>
             <button class="secondary-btn">
               Submit
